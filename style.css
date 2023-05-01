@@ -88,7 +88,7 @@ video {
     font-weight: 400;
     font: inherit;
     vertical-align: baseline;
-    outline: 0
+    outline: 0;
 }
 
 body,
@@ -14205,7 +14205,7 @@ html.has-scroll-smooth body {
 }
 
 #root {
-    position: fixed;
+    position: relative;
     min-height: 100vh;
     width: 100vw
 }
@@ -14582,7 +14582,7 @@ h4 {
 h1,
 h2 {
     font-size: 2.5rem;
-    color: #0d66fc;
+    color: #f33a6e;
     margin-bottom: 1rem;
     line-height: 115%
 }
@@ -14660,7 +14660,7 @@ h4 {
     margin-bottom: 2.5rem;
     line-height: 125%;
     text-transform: uppercase;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .h4,
@@ -14692,7 +14692,7 @@ li {
 }
 
 a {
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .specs-table {
@@ -14711,7 +14711,7 @@ a {
 }
 
 .specs-table table tr:first-child td {
-    background: #0d66fc;
+    background: #f33a6e;
     color: #fff
 }
 
@@ -14720,12 +14720,12 @@ a {
     text-align: center;
     font-size: .65rem;
     vertical-align: middle;
-    border-right: 1px solid #0d66fc;
+    border-right: 1px solid #f33a6e;
     white-space: nowrap
 }
 
 .specs-table table tr td:first-child {
-    color: #0d66fc;
+    color: #f33a6e;
     text-align: right;
     padding: .4rem .4rem .4rem 0;
     letter-spacing: .05em;
@@ -14776,7 +14776,7 @@ video {
 }
 
 .logo svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 @media(max-width:767px) {
@@ -14813,7 +14813,7 @@ video {
     bottom: 0;
     left: 0;
     display: block;
-    background: #0d66fc;
+    background: #f33a6e;
     box-shadow: 0 5px 15px rgba(25, 20, 19, 0);
     transition: box-shadow .5s linear, transform .5s cubic-bezier(.14, .99, .43, .99);
     border-radius: 10rem
@@ -14843,7 +14843,7 @@ video {
 .btn.radio {
     font-size: .8rem;
     text-align: center;
-    color: #0d66fc;
+    color: #380a14;
     min-width: 8rem;
     padding: .5rem 1rem .3rem;
     margin: 0 .25rem;
@@ -14864,7 +14864,7 @@ video {
 }
 
 .btn.radio.active:before {
-    background: #0d66fc;
+    background: #f33a6e;
     box-shadow: 0 5px 15px rgba(25, 20, 19, .4)
 }
 
@@ -14931,7 +14931,7 @@ video {
 }
 
 .btn.btn-sale .label.small span {
-    background: #f8cfff;
+    background: #380a14;
     padding: 4px 4px 2px 6px;
     border-radius: 6px
 }
@@ -15018,13 +15018,13 @@ button.btn {
 .link.link-arrow .arrow {
     margin-left: .5rem;
     flex: 0 1 1rem;
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .num {
     font-family: Campton-Book, sans-serif;
     font-size: .875rem;
-    color: #0d66fc;
+    color: #f33a6e;
     margin-bottom: 1rem
 }
 
@@ -15035,7 +15035,7 @@ button.btn {
     left: -40%;
     width: 150vw;
     height: 150vw;
-    background: #0d66fc;
+    background: #f33a6e;
     border-radius: 50%
 }
 
@@ -15143,7 +15143,7 @@ label {
 .input textarea {
     display: block;
     background: #fff;
-    color: #0d66fc;
+    color: #f33a6e;
     font-family: Campton-Medium, sans-serif;
     font-size: .8rem;
     line-height: 120%;
@@ -15165,7 +15165,7 @@ label {
 
 .input input:focus,
 .input textarea:focus {
-    border: 1px solid #0d66fc;
+    border: 1px solid #f33a6e;
     outline-width: 0;
     outline: none
 }
@@ -15224,7 +15224,7 @@ label {
 .modal-header {
     background: #fafafa;
     padding: 1rem 2rem;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .modal-header h4 {
@@ -15261,7 +15261,7 @@ label {
     display: block;
     width: 1rem;
     height: auto;
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .close-this {
@@ -15525,7 +15525,7 @@ label {
     left: 40%;
     width: 150vh;
     height: 150vh;
-    background: #f8cfff
+    background: #380a14
 }
 
 @media(max-width:575px) {
@@ -15850,7 +15850,7 @@ label {
 }
 
 .sub-selection {
-    color: #0d66fc
+    color: #f33a6e
 }
 
 @media(max-width:767px) {
@@ -15897,7 +15897,7 @@ label {
 
 .sub-selection .sub .sub-check svg {
     padding: .3rem;
-    fill: #0d66fc;
+    fill: #f33a6e;
     width: 100%;
     height: 100%
 }
@@ -15907,7 +15907,7 @@ label {
     z-index: 2;
     top: 0;
     left: 0;
-    background: #0d66fc;
+    background: #f33a6e;
     color: #fff;
     text-transform: uppercase;
     font-size: .6rem;
@@ -16000,7 +16000,7 @@ label {
     top: 8%;
     width: 84%;
     height: 84%;
-    border: 1px solid #0d66fc;
+    border: 1px solid #f33a6e;
     background: hsla(0, 0%, 100%, 0);
     border-radius: .75rem;
     transform: scale(1);
@@ -16262,7 +16262,7 @@ label {
 @media(max-width:767px) {
     .carousel .swiper-navigation-btn svg circle,
     .carousel .swiper-navigation-btn svg path {
-        stroke: #0d66fc
+        stroke: #f33a6e
     }
 }
 
@@ -16319,7 +16319,7 @@ label {
 }
 
 .carousel .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #0d66fc
+    background: #f33a6e
 }
 
 .ReviewCard {
@@ -16357,7 +16357,7 @@ label {
 }
 
 .ReviewCard .review .review-stars {
-    color: #0d66fc;
+    color: #f33a6e;
     margin-bottom: .5rem
 }
 
@@ -16461,7 +16461,7 @@ label {
     top: 0;
     left: 0;
     width: 100%;
-    color: #0d66fc;
+    color: #f33a6e;
     padding: 2rem
 }
 
@@ -16554,7 +16554,7 @@ label {
 }
 
 .program-dots .program-dot.active-program div {
-    background: #0d66fc
+    background: #f33a6e
 }
 
 @media(max-width:767px) {
@@ -16636,7 +16636,7 @@ label {
     top: 0;
     left: 0;
     width: 100%;
-    color: #0d66fc;
+    color: #f33a6e;
     padding: .5rem .3rem
 }
 
@@ -16852,7 +16852,7 @@ label {
     left: 50%;
     height: .4rem;
     width: .4rem;
-    background: #f8cfff;
+    background: #380a14;
     border-radius: .25rem;
     transform: translate(-50%, -50%);
     opacity: 0;
@@ -16878,21 +16878,21 @@ label {
 }
 
 #header nav a:hover {
-    color: #0d66fc !important
+    color: #f33a6e !important
 }
 
 #header nav a:hover svg {
-    fill: #0d66fc !important
+    fill: #f33a6e !important
 }
 
 @media(max-width:767px) {
     #header nav a:hover svg {
-        fill: #0d66fc
+        fill: #f33a6e
     }
 }
 
 #header nav a.active {
-    color: #0d66fc !important
+    color: #f33a6e !important
 }
 
 #header nav a.active:after {
@@ -16901,12 +16901,12 @@ label {
 }
 
 #header nav a.active svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 @media(max-width:767px) {
     #header nav a.active svg {
-        fill: #f8cfff
+        fill: #380a14
     }
 }
 
@@ -16933,7 +16933,7 @@ label {
 
 @media(max-width:767px) {
     #header nav .logo-mark svg {
-        fill: #f8cfff
+        fill: #380a14
     }
 }
 
@@ -16967,7 +16967,7 @@ label {
         top: 0;
         width: 100%;
         height: 100%;
-        background: #f8cfff;
+        background: #380a14;
         opacity: 0;
         transition: opacity .5s linear
     }
@@ -17021,7 +17021,7 @@ label {
         margin-left: -2rem
     }
     #header nav#sub-nav ul a {
-        color: #0d66fc !important;
+        color: #f33a6e !important;
         text-align: center;
         font-size: 1.7rem;
         padding: .3rem 1rem;
@@ -17045,7 +17045,7 @@ label {
         display: block;
         width: 100%;
         text-align: center;
-        border: 1px solid #0d66fc;
+        border: 1px solid #f33a6e;
         border-radius: 4rem;
         font-size: .8rem;
         padding: .7rem .5rem .6rem;
@@ -17210,7 +17210,7 @@ label {
 
 #header nav .cart-link a #cart-btn svg {
     height: 1.2rem !important;
-    fill: #0d66fc;
+    fill: #f33a6e;
     transition: transform 1s cubic-bezier(.14, .99, .43, .99)
 }
 
@@ -17222,7 +17222,7 @@ label {
     height: 1.75rem;
     width: 1.75rem;
     background: hsla(5, 100%, 72%, .15);
-    color: #f8cfff;
+    color: #380a14;
     border-radius: 1.1rem
 }
 
@@ -17297,7 +17297,7 @@ label {
     #header.open #nav-toggle svg,
     #header.open .logo-type svg,
     #header.open nav .cart-link a #cart-btn svg {
-        fill: #0d66fc
+        fill: #f33a6e
     }
 }
 
@@ -17320,7 +17320,7 @@ label {
 .page-programs #header #logo a .logo-type svg,
 .page-support #header #logo a .logo-type svg,
 .page-terms #header #logo a .logo-type svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .page-privacy #header nav a,
@@ -17334,7 +17334,7 @@ label {
 .page-programs #header #nav-toggle svg,
 .page-support #header #nav-toggle svg,
 .page-terms #header #nav-toggle svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 #header.scrolled,
@@ -17345,7 +17345,7 @@ label {
 }
 
 #header.scrolled #logo a .logo-type svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 #header.scrolled nav a {
@@ -17353,7 +17353,7 @@ label {
 }
 
 #header.scrolled #nav-toggle svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 #footer {
@@ -17372,7 +17372,7 @@ label {
 #footer .footer-wrap {
     height: 4.25rem;
     padding: 0 2.5rem;
-    background: #0d66fc;
+    background: #f33a6e;
     color: #fff;
     border-top-left-radius: 2.125rem;
     border-top-right-radius: 2.125rem
@@ -17608,7 +17608,7 @@ label {
 
 .product-price {
     font-family: Campton-Light, sans-serif;
-    color: #0d66fc;
+    color: #f33a6e;
     font-size: .8rem;
     margin-bottom: 1.5rem
 }
@@ -17661,7 +17661,7 @@ label {
     border: 1px solid hsla(0, 0%, 100%, 0);
     width: 100%;
     background: hsla(0, 0%, 100%, 0);
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .product-quantity .btn-minus,
@@ -17679,14 +17679,14 @@ label {
     background: hsla(0, 0%, 100%, 0);
     transition: background .5s cubic-bezier(.14, .99, .43, .99);
     border: 0;
-    color: #0d66fc;
+    color: #f33a6e;
     outline: none;
     cursor: pointer
 }
 
 .product-quantity .btn-minus svg,
 .product-quantity .btn-plus svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .product-quantity .btn-minus:hover,
@@ -17741,7 +17741,7 @@ label {
     font-size: .7rem;
     line-height: 150%;
     background: #eef4ff;
-    color: #0d66fc;
+    color: #f33a6e;
     cursor: pointer;
     text-align: center;
     padding: .4rem .5rem .3rem;
@@ -17751,12 +17751,12 @@ label {
 }
 
 .product-variants .product-option input[type=radio]+label:hover {
-    border: 1px solid #0d66fc
+    border: 1px solid #f33a6e
 }
 
 .product-variants .product-option input[type=radio]:checked+label {
     color: #fff;
-    background: #0d66fc;
+    background: #f33a6e;
     box-shadow: 0 5px 15px rgba(13, 102, 252, .25)
 }
 
@@ -17790,7 +17790,7 @@ label {
 
 .product-variants .product-option.disabled input[type=radio]:checked+label {
     background: #eef4ff;
-    color: #0d66fc;
+    color: #f33a6e;
     box-shadow: none
 }
 
@@ -17818,7 +17818,7 @@ label {
     display: flex;
     align-items: center;
     width: 100%;
-    background: #0d66fc;
+    background: #f33a6e;
     color: #fff;
     border: 0;
     cursor: pointer
@@ -17961,7 +17961,7 @@ label {
     top: 1rem;
     right: 1rem;
     background: #eef4ff;
-    color: #0d66fc;
+    color: #f33a6e;
     text-align: center;
     border-radius: 50%;
     height: 4.5rem;
@@ -17996,7 +17996,7 @@ label {
 
 .product-grid .products>li:hover .product-title {
     font-family: Campton-Light, sans-serif;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .product-grid .products>li:hover .product-img img {
@@ -18017,7 +18017,7 @@ label {
 }
 
 .swiper-scrollbar .swiper-scrollbar-drag {
-    background: #0d66fc;
+    background: #f33a6e;
     height: 1px
 }
 
@@ -18044,7 +18044,7 @@ label {
 
 .cart-product .cart-price {
     display: none;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 @media(max-width:992px) {
@@ -18098,7 +18098,7 @@ label {
 
 .cart-variant {
     flex: 0 1 10%;
-    color: #0d66fc;
+    color: #f33a6e;
     font-family: Campton-Medium, sans-serif !important
 }
 
@@ -18158,7 +18158,7 @@ label {
     font-size: .8rem;
     font-family: Campton-Light, sans-serif;
     margin-bottom: 0;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 @media(max-width:992px) {
@@ -18515,7 +18515,7 @@ label {
     transform: translateX(120%);
     flex-direction: column;
     background: #eef4ff;
-    color: #0d66fc;
+    color: #f33a6e;
     overflow: hidden;
     border-bottom-left-radius: 2rem;
     padding: 2rem 1rem
@@ -18543,7 +18543,7 @@ label {
 .cart-drawer header button svg {
     width: 100%;
     height: auto;
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .cart-drawer__items svg.loader {
@@ -18684,7 +18684,7 @@ label {
     font-size: 1.4rem;
     font-family: Campton-Medium, sans-serif;
     margin-bottom: 1.5rem;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 @media(max-width:767px) {
@@ -18710,7 +18710,7 @@ label {
     line-height: 150%;
     margin: 0;
     padding: 1.5rem 0 0;
-    color: #0d66fc
+    color: #f33a6e
 }
 
 @media(max-width:767px) {
@@ -18840,7 +18840,7 @@ label {
     text-align: center;
     font-size: .8rem;
     vertical-align: middle;
-    border-right: 1px solid #0d66fc
+    border-right: 1px solid #f33a6e
 }
 
 #account table tr td:last-child {
@@ -18870,7 +18870,7 @@ label {
 }
 
 .bg-blue {
-    background: #0d66fc;
+    background: #f33a6e;
     color: #fff
 }
 
@@ -18891,7 +18891,7 @@ label {
 }
 
 .bg-pink {
-    background: #f8cfff
+    background: #380a14
 }
 
 .bg-img {
@@ -19009,11 +19009,11 @@ label {
 }
 
 .t-blue {
-    color: #0d66fc
+    color: #f33a6e
 }
 
 .t-blue svg {
-    fill: #0d66fc
+    fill: #f33a6e
 }
 
 .t-black {
@@ -19025,11 +19025,11 @@ label {
 }
 
 .t-pink {
-    color: #f8cfff
+    color: #380a14
 }
 
 .t-pink svg {
-    fill: #f8cfff
+    fill: #380a14
 }
 
 .t-yellow {
@@ -19067,7 +19067,7 @@ label {
         color: #fff
     }
     .t-xxs-pink {
-        color: #f8cfff
+        color: #380a14
     }
 }
 
@@ -19667,7 +19667,7 @@ html.has-scroll-dragging {
     padding: .9rem 2.5rem .7rem !important;
     cursor: pointer;
     text-align: center;
-    background: #0d66fc !important;
+    background: #f33a6e !important;
     color: #fff !important;
     border-radius: 10rem !important;
     margin: 0 0 0 15px !important
@@ -19918,11 +19918,11 @@ html.has-scroll-dragging {
 
 .bg-pink {
     --tw-bg-opacity: 1;
-    background-color: rgb(245 204 255/var(--tw-bg-opacity))
+    background-color: rgb(56 10 20/var(--tw-bg-opacity))
 }
 
 .bg-blue {
-    background-color: #0d66fc
+    background-color: #f33a6e
 }
 
 .bg-yellow {
